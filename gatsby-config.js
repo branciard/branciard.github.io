@@ -75,5 +75,6 @@ module.exports = {
         icon: config.favicon,
       },
     },
+    'gatsby-plugin-ipfs',
   ]
 };

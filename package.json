@@ -13,6 +13,7 @@
     "build": "gatsby build",
     "start": "gatsby develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "publish": "gatsby build --prefix-paths && node ./ipfsDwebUploader public",
     "lint": "tslint --project .",
     "lint:fix": "tslint --fix --project .",
     "fix": "prettier --write 'src/**/*.{ts,tsx,scss,md}' && tslint --fix 'src/**/*.{ts,tsx}' -p tsconfig.json && stylelint --fix 'src/**/*.scss' "
@@ -27,6 +28,7 @@
     "babel-plugin-styled-components": "^1.8.0",
     "gatsby": "^2.0.25",
     "gatsby-plugin-catch-links": "^2.0.5",
+    "gatsby-plugin-ipfs": "^2.0.2",
     "gatsby-plugin-lodash": "^3.0.1",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-offline": "^2.0.7",
@@ -43,6 +45,7 @@
     "gatsby-transformer-remark": "^2.1.7",
     "gh-pages": "^2.0.1",
     "husky": "^1.1.2",
+    "ipfs": "^0.42.0",
     "lint-staged": "^7.3.0",
     "lodash": "^4.17.11",
     "node-sass": "^4.9.4",

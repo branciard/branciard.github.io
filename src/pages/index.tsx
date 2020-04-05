@@ -55,6 +55,10 @@ const HomepageContent: any = styled.div`
   text-align: ${(props: any) => (props.center ? 'center' : 'left')};
 `;
 
+const BioFonSize: any = styled.div`
+  font-size: 13px;
+`;
+
 export default class IndexPage extends React.Component<PageProps> {
   public render() {
     const { data } = this.props;
@@ -66,12 +70,11 @@ export default class IndexPage extends React.Component<PageProps> {
           <Homepage>
             <GridRow background={true}>
               <HomepageContent center={true}>
-                <img src={config.siteLogo} />
                 <h1>
                   Hi. I am <br />
-                  Majid Hajian
+                  Francois Branciard
                 </h1>
-                <p>I write about JavaScript, Angular, Ember, React, Vue, GlimmerJs, NodeJs, Rails, Go, Gatsby and ...</p>
+                <p>Sculpting clay, wood, stone, Open Source solution and Open Execution through blockchain...</p>
                 <Link to="/contact">
                   <Button big={true}>
                     <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -92,12 +95,28 @@ export default class IndexPage extends React.Component<PageProps> {
             </GridRow>
             <GridRow>
               <HomepageContent>
+                <br />
+                <br />
                 <h2>About Me</h2>
-                <p>
-                  Though I am a results-driven front-end developer by day who have converted inactive designs to fully interactive,
-                  well-developed, accessible and standards-based user interfaces. I am completely enthusiast with a full stack environment
-                  and passionate about JavaScript world.
-                </p>
+                <BioFonSize>
+                  Software engineer, I have a strong backend experience on complex systems working for around 10 years at Orange Information
+                  Systems for several business critical projects. I endorsed several roles, developer, technical leader, and then in charge
+                  of a Build Center department.
+                  <br />
+                  This experience brings me a lot, working with many teams, production applications on business critical projects with high
+                  availability constraints, performance and security.
+                  <br />
+                  After that, I then decide to follow my curiosity, new ideas and intuition, and it leads me to naturally meet and dive into
+                  Ethereum and learned its ropes. I worked as Blockchain developer for 2 years now and I am always hunger to learn and
+                  explore new technologies coming.
+                  <br />
+                  More than Blockchain itself, it is the decentralization principle that drives my interest. It leads us to rethink and
+                  experiments new possibilities : new economics incentives, governance models and so on.
+                  <br />
+                  Most of those experiments will fail : a good way to learn and build forward on it to reach a better (fair) system. Working
+                  on technical tools and softwares that enable those experiments is my priority.
+                </BioFonSize>
+                <br />
                 <hr />
                 <h2>Latest Blog</h2>
                 {edges.map(post => (

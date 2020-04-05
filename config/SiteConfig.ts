@@ -1,5 +1,6 @@
 export default {
-  pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
+  // pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
+  pathPrefix: '__GATSBY_IPFS_PATH_PREFIX__', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
 
   siteTitle: 'Francois Branciard', // Navigation and Site Title
   siteTitleAlt: 'Francois Branciard Website', // Alternative Site title for SEO
