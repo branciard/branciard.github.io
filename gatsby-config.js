@@ -72,9 +72,23 @@ module.exports = {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'standalone',
-        icon: config.favicon,
+        icon: 'src/favicon-32x32.png'
       },
     },
     'gatsby-plugin-ipfs',
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+        {
+          resolve: "gatsby-remark-embed-youtube",
+          options: {
+            width: 800,
+            height: 400
+          }
+        }
+        ]
+      }
+    },
   ]
 };
