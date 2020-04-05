@@ -1,3 +1,5 @@
+## Francois Branciard based on the Gatsby started bellow 
+
 ## Gatsby 2 Power blog starter with Typescript
 More features are coming, stay tuned! 
 
