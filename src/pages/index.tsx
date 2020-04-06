@@ -74,7 +74,11 @@ export default class IndexPage extends React.Component<PageProps> {
                   Hi. I am <br />
                   Francois Branciard
                 </h1>
-                <p>Sculpting clay, wood, stone, Open Source solution and Open Execution through blockchain...</p>
+                <p>
+                  Shaping and Sculpting ... <br />
+                  Clay, wood, stone <br />
+                  Open Source solution <br /> Open Execution through blockchain
+                </p>
                 <Link to="/contact">
                   <Button big={true}>
                     <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
