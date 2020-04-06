@@ -7,10 +7,11 @@ require('ts-node').register({
 });
 
 const config = require('./config/SiteConfig').default;
-const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
+
+const pathPrefix = process.env.IPFS_DEPLOY === 'true' ? config.ipfsPathPrefix  :( config.pathPrefix === '/' ? '' : config.pathPrefix);
 
 module.exports = {
-  pathPrefix: config.pathPrefix,
+  pathPrefix: pathPrefix,
   siteMetadata: {
     siteUrl: config.siteUrl + pathPrefix,
   },
@@ -68,14 +69,13 @@ module.exports = {
         name: config.siteTitle,
         short_name: config.siteTitleAlt,
         description: config.siteDescription,
-        start_url: config.pathPrefix,
+        start_url: pathPrefix,
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'standalone',
         icon: 'src/favicon-32x32.png'
       },
     },
-    'gatsby-plugin-ipfs',
     {
       resolve: "gatsby-transformer-remark",
       options: {
