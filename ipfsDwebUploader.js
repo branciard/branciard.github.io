@@ -26,14 +26,15 @@ const uploadWebsite = async () => {
   console.log("\x1b[36m%s\x1b[0m", `\n   ${dwebHash}\n`);
   console.log(`To preview you website immediately go to:`);
   console.log("\x1b[36m%s\x1b[0m", `\n   ${ipfsGateway}/ipfs/${dwebHash}\n`);
-  //IPNS francoisbranciard = QmZWq1Z4ZKsVG2jZWshrp76GxXHheDzYuH9eNSreQrcuRK
-  console.log(`Publishing at IPNS. Please wait ...`);
-  const publishDNP= await ipfs.name.publish(dwebHash,{key:'francoisbranciard'});
-  console.log(`New website content ${publishDNP.value} publish on ipns/${publishDNP.name}`)
-  console.log(`To preview you website immediately go to:`);
-  console.log("\x1b[36m%s\x1b[0m", `\n   ${ipfsGateway}/ipns/${publishDNP.name}\n`);
-  console.log(`https://gateway.ipfs.io/ipns/${publishDNP.name}`)
-
+  if ( process.env.IPNS_DEPLOY === 'true' ) {
+    //IPNS francoisbranciard = QmZWq1Z4ZKsVG2jZWshrp76GxXHheDzYuH9eNSreQrcuRK
+    console.log(`Publishing at IPNS. Please wait ...`);
+    const publishDNP= await ipfs.name.publish(dwebHash,{key:'francoisbranciard'});
+    console.log(`New website content ${publishDNP.value} publish on ipns/${publishDNP.name}`)
+    console.log(`To preview you website immediately go to:`);
+    console.log("\x1b[36m%s\x1b[0m", `\n   ${ipfsGateway}/ipns/${publishDNP.name}\n`);
+    console.log(`https://gateway.ipfs.io/ipns/${publishDNP.name}`)
+  }
   return;
 };
 
