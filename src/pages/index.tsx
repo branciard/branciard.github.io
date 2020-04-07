@@ -95,6 +95,17 @@ export default class IndexPage extends React.Component<PageProps> {
                     Blog
                   </Button>
                 </Link>
+                <br />
+                <br />
+                Decentralized website using ENS, IPFS, IPNS, DNSLink :
+                <br />
+                <a href="http://francoisbranciard.eth" target="_blank">
+                  http://francoisbranciard.eth
+                </a>
+                <br />
+                <a href="https://gateway.ipfs.io/ipns/francoisbranciard.com" target="_blank">
+                  https://gateway.ipfs.io/ipns/francoisbranciard.com
+                </a>
               </HomepageContent>
             </GridRow>
             <GridRow>
