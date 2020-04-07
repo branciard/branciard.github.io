@@ -51,8 +51,21 @@ const GridRow: any = styled.div`
 `;
 
 const HomepageContent: any = styled.div`
+  height: 95vh;
   max-width: 30rem;
   text-align: ${(props: any) => (props.center ? 'center' : 'left')};
+`;
+
+const HomepageHeaderContent: any = styled.div`
+  height: 20vh;
+`;
+
+const HomepageMainContent: any = styled.div`
+  height: 60vh;
+`;
+
+const HomepageFooterContent: any = styled.div`
+  height: 20vh;
 `;
 
 const BioFonSize: any = styled.div`
@@ -70,48 +83,49 @@ export default class IndexPage extends React.Component<PageProps> {
           <Homepage>
             <GridRow background={true}>
               <HomepageContent center={true}>
-                <h1>
-                  Hi. I am <br />
-                  Francois Branciard
-                </h1>
-                <p>
-                  Shaping and Sculpting ... <br />
-                  Clay, wood, stone <br />
-                  Open Source solution <br /> Open Execution through blockchain
-                </p>
-                <Link to="/contact">
-                  <Button big={true}>
-                    <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-453-185-242 295q-18 23-49 23-13 0-22-4-19-7-30.5-23.5t-11.5-36.5v-349l864-1059-1069 925-395-162q-37-14-40-55-2-40 32-59l1664-960q15-9 32-9 20 0 36 11z" />
-                    </svg>
-                    Contact
-                  </Button>
-                </Link>
-                <Link to="/blog">
-                  <Button big>
-                    <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-453-185-242 295q-18 23-49 23-13 0-22-4-19-7-30.5-23.5t-11.5-36.5v-349l864-1059-1069 925-395-162q-37-14-40-55-2-40 32-59l1664-960q15-9 32-9 20 0 36 11z" />
-                    </svg>
-                    Blog
-                  </Button>
-                </Link>
-                <br />
-                <br />
-                Decentralized website using ENS, IPFS, IPNS, DNSLink :
-                <br />
-                <a href="http://francoisbranciard.eth" target="_blank">
-                  http://francoisbranciard.eth
-                </a>
-                <br />
-                <a href="https://gateway.ipfs.io/ipns/francoisbranciard.com" target="_blank">
-                  https://gateway.ipfs.io/ipns/francoisbranciard.com
-                </a>
+                <HomepageHeaderContent />
+                <HomepageMainContent>
+                  <h1>
+                    Hi. I am <br />
+                    Francois Branciard
+                  </h1>
+                  <p>
+                    Shaping and Sculpting ... <br />
+                    Clay, wood, stone <br />
+                    Open Source solution <br /> Open Execution through blockchain
+                  </p>
+                  <Link to="/contact">
+                    <Button big={true}>
+                      <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-453-185-242 295q-18 23-49 23-13 0-22-4-19-7-30.5-23.5t-11.5-36.5v-349l864-1059-1069 925-395-162q-37-14-40-55-2-40 32-59l1664-960q15-9 32-9 20 0 36 11z" />
+                      </svg>
+                      Contact
+                    </Button>
+                  </Link>
+                  <Link to="/blog">
+                    <Button big>
+                      <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-453-185-242 295q-18 23-49 23-13 0-22-4-19-7-30.5-23.5t-11.5-36.5v-349l864-1059-1069 925-395-162q-37-14-40-55-2-40 32-59l1664-960q15-9 32-9 20 0 36 11z" />
+                      </svg>
+                      Blog
+                    </Button>
+                  </Link>
+                </HomepageMainContent>
+                <HomepageFooterContent>
+                  <br />
+                  Decentralized website using ENS, IPFS, IPNS, DNSLink: <br />
+                  <a href="http://francoisbranciard.eth" target="_blank">
+                    http://francoisbranciard.eth
+                  </a>
+                  <br />
+                  <a href="https://gateway.ipfs.io/ipns/francoisbranciard.com" target="_blank">
+                    https://gateway.ipfs.io/ipns/francoisbranciard.com
+                  </a>
+                </HomepageFooterContent>
               </HomepageContent>
             </GridRow>
             <GridRow>
               <HomepageContent>
-                <br />
-                <br />
                 <h2>About Me</h2>
                 <BioFonSize>
                   Software engineer, I have a strong backend experience on complex systems working for around 10 years at Orange Information
@@ -132,7 +146,17 @@ export default class IndexPage extends React.Component<PageProps> {
                   on technical tools and softwares that enable those experiments is my priority.
                 </BioFonSize>
                 <br />
-                <hr />
+                <h2>Newsletter</h2>
+                <a
+                  href="https://newsletter.unlock-protocol.com/?title=Francois%20Branciard%20Newsletter&description=Subscribe%20to%20my%20newsletter%20to%20be%20notify%20when%20I%20publish%20new%20blog%20posts%20or%20updates.&locks=0x92acE3f7f96EB49cB3e25A9468C843BD12F0568E
+"
+                  target="_blank"
+                >
+                  Subscribe{' '}
+                </a>
+                using Unlock Protocol
+                <br />
+                <br />
                 <h2>Latest Blog</h2>
                 {edges.map(post => (
                   <Article
@@ -145,9 +169,9 @@ export default class IndexPage extends React.Component<PageProps> {
                     key={post.node.fields.slug}
                   />
                 ))}
-                <p className={'textRight'}>
+                <div className={'textRight'}>
                   <Link to={'/blog'}>All articles ({totalCount})</Link>
-                </p>
+                </div>
               </HomepageContent>
             </GridRow>
           </Homepage>

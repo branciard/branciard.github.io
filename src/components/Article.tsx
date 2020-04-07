@@ -8,7 +8,7 @@ const Post = styled.article`
   display: flex;
   flex-direction: column;
   margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2rem;
 `;
 
 const Title = styled.h2`
