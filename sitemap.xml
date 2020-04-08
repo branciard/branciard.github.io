@@ -7,12 +7,14 @@
 <url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/art</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/artwork</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/blokchain</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/dappnode</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/decentralisation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/ethereum</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/packaging</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/polkadot</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/blokchain</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/sculpture</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/tedx</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./blog/blockchain-un-nouveau-terrain-de-jeu-pour-les-oeuvres</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./blog/blockchain-a-new-playground-for-artwork</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./blog/how-to-create-and-manage-a-new-d-app-node-package</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
