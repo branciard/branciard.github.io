@@ -51,21 +51,21 @@ const GridRow: any = styled.div`
 `;
 
 const HomepageContent: any = styled.div`
-  height: 95vh;
+  height: 95%;
   max-width: 30rem;
   text-align: ${(props: any) => (props.center ? 'center' : 'left')};
 `;
 
 const HomepageHeaderContent: any = styled.div`
-  height: 20vh;
+  height: 20%;
 `;
 
 const HomepageMainContent: any = styled.div`
-  height: 60vh;
+  height: 60%;
 `;
 
 const HomepageFooterContent: any = styled.div`
-  height: 20vh;
+  height: 20%;
 `;
 
 const BioFonSize: any = styled.div`
