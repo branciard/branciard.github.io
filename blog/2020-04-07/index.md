@@ -3,22 +3,15 @@ date: "2020-04-07"
 title: "Blockchain: a new playground for artwork"
 category: "Art"
 tags: ['Art','Artwork','blokchain']
-banner: "/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-1.png"
+banner: "/assets/blog/2020-04-07/banner.png"
 ---
 
->
-## Talk at TEDxUSMB merging decentralized technology, art creation and new value exchange models
+### Talk at TEDxUSMB merging decentralized technology, art creation and new value exchange models
 
 >
-Note : French version at the end the article can be found here :
+Note : Version Française de l'article disponible [ici](https://francoisbranciard.com/blog/blockchain-un-nouveau-terrain-de-jeu-pour-les-oeuvres) :
 
 ---
-
-<p style="text-align:center">
- <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-1.png" width = 600 >
- <br />
-Sculpture F.Branciard 2020. La dame à la Capuche. Granite des crues du beaujolais.
-</p>
 
 The first TEDxUSMB was organized in November 2019 for the 40th anniversary of the Savoie Mont-Blanc University. In 2007, I was a student engineer there, in Annecy.
 
@@ -245,11 +238,14 @@ Thank you.
 
 ---
 
-
 <p style="text-align:center">
- <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-2.png" width = 600 >
+Sculpture F.Branciard. "La dame à la Capuche".2020.
  <br />
-Sculpture F.Branciard. "La dame à la Capuche". 2020. Granite rock from Beaujolais crus
+  <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-1.png" width = 600 >
+ <br />
+  <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-2.png" width = 600 >
+   <br />
+  Granite rock from Beaujolais crus.
 </p>
 
 ---
