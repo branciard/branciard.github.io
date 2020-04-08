@@ -6,7 +6,6 @@ import Post from '../models/Post';
 
 const Wrapper = styled.div`
   display: flex;
-  margin: 6rem auto 0 auto;
   a {
     color: ${props => props.theme.colors.primary};
     display: flex;
@@ -45,13 +44,13 @@ export class PrevNext extends React.PureComponent<Props> {
       <Wrapper>
         {prev && (
           <Prev>
-            <span>Previous</span>
+            <span>Previous Post</span>
             <Link to={`/blog/${kebabCase(prev.frontmatter.title)}`}>{prev.frontmatter.title}</Link>
           </Prev>
         )}
         {next && (
           <Next>
-            <span>Next</span>
+            <span>Next Post</span>
             <Link to={`/blog/${kebabCase(next.frontmatter.title)}`}>{next.frontmatter.title}</Link>
           </Next>
         )}

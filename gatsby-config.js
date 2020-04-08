@@ -53,7 +53,6 @@ module.exports = {
             },
           },
           'gatsby-remark-prismjs',
-          'gatsby-remark-autolink-headers',
         ],
       },
     },

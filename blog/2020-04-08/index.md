@@ -11,7 +11,7 @@ banner: "./assets/blog/2020-04-07/banner.png"
 >
 Note : English blog post version can be found [here](https://francoisbranciard.com/blog/blockchain-a-new-playground-for-artwork)
 
-Le premier TEDxUSMB a été organisé en novembre 2019 à l'occasion des 40 ans de l'Université de Savoie Mont-Blanc. C'est ici, à Annecy en 2007 , que j'ai été étudiant ingénieur.
+Le [premier TEDxUSMB](https://www.polytech.univ-smb.fr/actualite/carton-plein-pour-le-1er-tedx-de-luniversite-savoie-mont-blanc.html) a été organisé en novembre 2019 à l'occasion des 40 ans de l'Université de Savoie Mont-Blanc. C'est ici, à Annecy en 2007 , que j'ai été étudiant ingénieur.
 
 Lors de cet événement TEDx, j'ai eu l'opportunité de partager aux étudiants du campus certains de mes centres d'intérêt alliant **technologies décentralisées, création artistique** et des nouvelles formes **d'organisations de nos échanges**. Une vision mise en lumière par une présentation de la **blockchain** comme un **nouveau langage** pour **tracer l'histoire et les échanges d'une œuvre d'art**.
 
@@ -232,9 +232,8 @@ Apprends les règles comme un professionnel afin de pouvoir les briser comme un 
 
 Merci.
 
-### F.Branciard
-
-### Le 21 Novembre 2019 à Annecy lors du TEDxUSMB
+#### F.Branciard
+#### Le 21 Novembre 2019 à Annecy lors du TEDxUSMB
 
 ---
 
@@ -245,14 +244,10 @@ Sculpture F.Branciard. "La dame à la Capuche".2020.
  <br />
   <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-2.png" width = 600 >
    <br />
-  Granite rouge des crues du beaujolais.
+  Granite rouge des crus du Beaujolais.
 </p>
 
 ---
-
-Website : https://francoisbranciard.com
-
-Website décentralisé : http://francoisbranciard.eth
 
 Activités blockchain : http://luguslabs.com
 

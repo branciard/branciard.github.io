@@ -55,13 +55,23 @@ export default class PostPage extends React.PureComponent<Props> {
                     ))}
                   </Subline>
                 ) : null}
+                <br />
+                <hr />
                 <PrevNext prev={prev} next={next} />
                 <TextAlignCenter>
+                  <br />
+                  <hr />
+                  <Link to="/">{config.siteTitle} Home</Link>
+                  <br />
+                  <Link to="/categories">Browse Blog Categories</Link>
+                  <br />
+                  <Link to="/tags">Browse Blog Tags</Link>
+                  <br />
                   <a
                     href="https://newsletter.unlock-protocol.com/?title=Francois%20Branciard%20Newsletter&description=Subscribe%20to%20my%20newsletter%20to%20be%20notify%20when%20I%20publish%20new%20blog%20posts%20or%20updates.&locks=0x92acE3f7f96EB49cB3e25A9468C843BD12F0568E"
                     target="_blank"
                   >
-                    Subscribe to this blog newsletter using Unlock Protocol.
+                    Subscribe to this Blog newsletter using Unlock Protocol.
                   </a>
                 </TextAlignCenter>
               </Content>

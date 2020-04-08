@@ -13,7 +13,7 @@ Note : Version Française de l'article disponible [ici](https://francoisbrancia
 
 ---
 
-The first TEDxUSMB was organized in November 2019 for the 40th anniversary of the Savoie Mont-Blanc University. In 2007, I was a student engineer there, in Annecy.
+The first [TEDxUSMB](https://www.polytech.univ-smb.fr/actualite/carton-plein-pour-le-1er-tedx-de-luniversite-savoie-mont-blanc.html) was organized in November 2019 for the 40th anniversary of the Savoie Mont-Blanc University. In 2007, I was a student engineer there, in Annecy.
 
 In this TEDx, I had the privilege to share with students part of my interests that gather **decentralized technology, art creation and new kind of value exchanges**. Vision enlightened with the presentation of Blockchain as a **new language** to **track stories and exchanges of artwork**.
 
@@ -232,9 +232,8 @@ Learn the Rules Like a Pro, So You Can Break Them Like an Artist - Picasso
 
 Thank you.
 
-### F.Branciard
-
-### 2019–11–21 in Annecy at TEDxUSMB
+#### F.Branciard
+#### 2019–11–21 in Annecy at TEDxUSMB
 
 ---
 
@@ -249,10 +248,6 @@ Sculpture F.Branciard. "La dame à la Capuche".2020.
 </p>
 
 ---
-
-Website : https://francoisbranciard.com
-
-Decentralize website : http://francoisbranciard.eth
 
 Blockchain activities : http://luguslabs.com
 
