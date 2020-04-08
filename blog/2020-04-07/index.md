@@ -2,7 +2,7 @@
 date: "2020-04-07"
 title: "Blockchain: a new playground for artwork"
 category: "Art"
-tags: ['Art','Artwork','blokchain']
+tags: ['Art','Artwork','Blokchain','TEDX','Sculpture']
 banner: "./assets/blog/2020-04-07/banner.png"
 ---
 

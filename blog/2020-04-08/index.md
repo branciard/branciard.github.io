@@ -2,7 +2,7 @@
 date: "2020-04-08"
 title: "Blockchain : un nouveau terrain de jeu pour les œuvres"
 category: "Art"
-tags: ['Art','Artwork','blokchain']
+tags: ['Art','Artwork','Blokchain','TEDX','Sculpture']
 banner: "./assets/blog/2020-04-07/banner.png"
 ---
 
