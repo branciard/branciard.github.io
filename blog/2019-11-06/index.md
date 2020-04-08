@@ -3,7 +3,7 @@ date: "2019-11-06"
 title: "How to create and manage a new DAppNode Package"
 category: "Coding"
 tags: ['Ethereum','Dappnode','Decentralisation','Polkadot','Packaging']
-banner: "/assets/blog/2019-11-06/banner.png"
+banner: "./assets/blog/2019-11-06/banner.png"
 ---
                     
 <p style="text-align:center">

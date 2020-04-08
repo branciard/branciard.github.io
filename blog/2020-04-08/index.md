@@ -3,7 +3,7 @@ date: "2020-04-08"
 title: "Blockchain : un nouveau terrain de jeu pour les œuvres"
 category: "Art"
 tags: ['Art','Artwork','blokchain']
-banner: "/assets/blog/2020-04-07/banner.png"
+banner: "./assets/blog/2020-04-07/banner.png"
 ---
 
 ### Conférence lors du TEDxUSMB alliant technologies décentralisées, création artistique et des nouvelles formes d'organisations de nos échanges
