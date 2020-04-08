@@ -52,7 +52,15 @@ module.exports = {
               rel: 'nofollow noopener noreferrer',
             },
           },
+          {
+            resolve: "gatsby-remark-embed-youtube",
+            options: {
+              width: 800,
+              height: 400
+            }
+          },
           'gatsby-remark-prismjs',
+          'gatsby-remark-autolink-headers',
         ],
       },
     },
@@ -74,20 +82,6 @@ module.exports = {
         display: 'standalone',
         icon: 'src/favicon-32x32.png'
       },
-    },
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-        {
-          resolve: "gatsby-remark-embed-youtube",
-          options: {
-            width: 800,
-            height: 400
-          }
-        }
-        ]
-      }
     },
     'gatsby-plugin-ipfs',
   ]
