@@ -51,13 +51,26 @@ const GridRow: any = styled.div`
 `;
 
 const HomepageContent: any = styled.div`
-  height: 95%;
+  height: 100%;
   max-width: 30rem;
   text-align: ${(props: any) => (props.center ? 'center' : 'left')};
 `;
 
+const Avatar: any = styled.div`
+  object-fit: cover;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+`;
+
 const HomepageHeaderContent: any = styled.div`
-  height: 20%;
+  height: 12%;
+`;
+
+const HomepageAvatarContent: any = styled.div`
+  height: 9%;
+  display: flex;
+  justify-content: center;
 `;
 
 const HomepageMainContent: any = styled.div`
@@ -84,7 +97,13 @@ export default class IndexPage extends React.Component<PageProps> {
             <GridRow background={true}>
               <HomepageContent center={true}>
                 <HomepageHeaderContent />
+                <HomepageAvatarContent>
+                  <Avatar>
+                    <img src={config.siteLogo} />
+                  </Avatar>
+                </HomepageAvatarContent>
                 <HomepageMainContent>
+                  <br />
                   <h1>
                     Hi. I am <br />
                     Francois Branciard
