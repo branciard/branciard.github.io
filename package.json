@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-typescirpt-power-blog",
-  "description": "gatsyby blog template with typescript and tslint",
+  "name": "francoisbranciard-website",
+  "description": "Decentralized website using Gatsby starter, ENS, IPFS, IPNS, DNSLink",
   "version": "1.0.0",
-  "author": "Majid Hajian ( mhadaily@gmail.com )",
+  "author": "Francois Branciard",
   "keywords": [
     "gatsby, typescript",
-    "blog"
+    "blog", "IPFS", "IPNS", "ENS"
   ],
   "license": "MIT",
   "main": "n/a",

@@ -1,6 +1,6 @@
 export default {
   pathPrefix: '__GATSBY_IPFS_PATH_PREFIX__', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
-  ipnsPathPrefix: 'ipns/QmZWq1Z4ZKsVG2jZWshrp76GxXHheDzYuH9eNSreQrcuRK/',
+  ipnsPathPrefix: 'ipns/francoisbranciard.com/',
   siteTitle: 'Francois Branciard Blog', // Navigation and Site Title
   siteTitleAlt: 'Francois Branciard Personal Website', // Alternative Site title for SEO
   siteUrl: 'https://francoisbranciard.com', // Domain of your site. No trailing slash!

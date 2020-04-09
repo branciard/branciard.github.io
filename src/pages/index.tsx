@@ -74,11 +74,7 @@ const HomepageAvatarContent: any = styled.div`
 `;
 
 const HomepageMainContent: any = styled.div`
-  height: 60%;
-`;
-
-const HomepageFooterContent: any = styled.div`
-  height: 20%;
+  height: 80%;
 `;
 
 const BioFonSize: any = styled.div`
@@ -108,11 +104,13 @@ export default class IndexPage extends React.Component<PageProps> {
                     Hi. I am <br />
                     Francois Branciard
                   </h1>
+                  <br />
                   <p>
                     Shaping and Sculpting ... <br />
                     Clay, wood, stone <br />
                     Open Source solution <br /> Open Execution through blockchain
                   </p>
+                  <br />
                   <Link to="/contact">
                     <Button big={true}>
                       <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -130,17 +128,6 @@ export default class IndexPage extends React.Component<PageProps> {
                     </Button>
                   </Link>
                 </HomepageMainContent>
-                <HomepageFooterContent>
-                  <br />
-                  Decentralized website using ENS, IPFS, IPNS, DNSLink: <br />
-                  <a href="http://francoisbranciard.eth" target="_blank">
-                    http://francoisbranciard.eth
-                  </a>
-                  <br />
-                  <a href="https://gateway.ipfs.io/ipns/francoisbranciard.com" target="_blank">
-                    https://gateway.ipfs.io/ipns/francoisbranciard.com
-                  </a>
-                </HomepageFooterContent>
               </HomepageContent>
             </GridRow>
             <GridRow>

@@ -87,8 +87,14 @@ export class Layout extends React.PureComponent<{}> {
               <GlobalStyle />
               {children}
               <Footer>
-                &copy; {split(data.site.buildTime, '.')[2]} Gatsby starter Design by Majid Hajian. All rights reserved. <br />
-                <a href="https://github.com/mhadaily/gatsby-starter-typescirpt-power-blog">Gatsby starter GitHub Repository</a> <br />
+                &copy; {split(data.site.buildTime, '.')[2]} Decentralized website using Gatsby starter, ENS, IPFS, IPNS, DNSLink
+                <br />
+                <a href="http://francoisbranciard.eth">ENS http://francoisbranciard.eth | </a>
+                <a href="https://gateway.ipfs.io/ipns/francoisbranciard.com">
+                  IPNS https://gateway.ipfs.io/ipns/francoisbranciard.com
+                </a>{' '}
+                <br />
+                <a href="https://github.com/branciard/branciard.github.io">GitHub Repository</a> <br />
                 <span>Last build: {data.site.buildTime}</span>
               </Footer>
             </React.Fragment>
