@@ -107,8 +107,8 @@ export default class IndexPage extends React.Component<PageProps> {
                   <br />
                   <p>
                     Shaping and Sculpting ... <br />
-                    Clay, wood, stone <br />
-                    Open Source solution <br /> Open Execution through blockchain
+                    Clay, Wood, Stone <br />
+                    Open Source solutions relying on Decentralized Open Execution
                   </p>
                   <br />
                   <Link to="/contact">
@@ -145,11 +145,21 @@ export default class IndexPage extends React.Component<PageProps> {
                   Ethereum and learned its ropes. I worked as Blockchain developer for 2 years now and I am always hunger to learn and
                   explore new technologies coming.
                   <br />
-                  More than Blockchain itself, it is the decentralization principle that drives my interest. It leads us to rethink and
-                  experiments new possibilities : new economics incentives, governance models and so on.
+                  More than Blockchain itself, it is the decentralization principle that drives my interest. It leads us to <b>
+                    rethink
+                  </b>{' '}
+                  our current imbalance economy behaviour and experiments <b>new possibilities</b> :
                   <br />
-                  Most of those experiments will fail : a good way to learn and build forward on it to reach a better (fair) system. Working
-                  on technical tools and softwares that enable those experiments is my priority.
+                  <b>Public goods and open source sustain models through new collaborative economics incentives and governances.</b>
+                  <br />
+                  Most of those experiments will fail : a good way to learn and build forward on it to reach a better, <b>fair</b>, system.
+                  Working on technical tools and softwares that enable those experiments is my priority.
+                  <br />
+                  Happy to connect with people wired toward those goals and
+                  <a href="https://francoisbranciard.com/blog/blockchain-a-new-playground-for-artwork" target="_blank">
+                    {' '}
+                    welcome to this playground
+                  </a>
                 </BioFonSize>
                 <br />
                 <h2>Newsletter</h2>
