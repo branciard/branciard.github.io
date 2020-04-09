@@ -3,7 +3,7 @@ date: "2020-04-08"
 title: "Blockchain : un nouveau terrain de jeu pour les œuvres"
 category: "Art"
 tags: ['Art','Artwork','Blokchain','TEDX','Sculpture']
-banner: "/assets/blog/2020-04-07/banner.png"
+banner: "__PATH_PREFIX__/assets/blog/2020-04-07/banner.png"
 ---
 
 ### Conférence lors du TEDxUSMB alliant technologies décentralisées, création artistique et des nouvelles formes d'organisations de nos échanges
@@ -34,7 +34,7 @@ Elle est considérée comme l'une des premières œuvre d'art de l'humanité.
   <br />
 Dame de brassempouy Photo musee archeologie national©RMN-GP. Jean-Gilles Berizzi
   <br>
- <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/slide-tedx-francoisbranciard-1.png" width = 600 >
+ <img src="__PATH_PREFIX__/assets/blog/2020-04-07/slide-tedx-francoisbranciard-1.png" width = 600 >
 </p>
 
 Si comme moi vous êtes curieux, vous vous demandez qui a pu créer cela, pour qui, pourquoi ?
@@ -69,7 +69,7 @@ J'aimerais avec vous inventer une solution. Cette solution combine deux de mes a
 <p style="text-align:center">
   <br />
 Sculpture en cours<br>
- <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/slide-tedx-francoisbranciard-2.png" width = 600 >
+ <img src="__PATH_PREFIX__/assets/blog/2020-04-07/slide-tedx-francoisbranciard-2.png" width = 600 >
 </p>
 
 Premièrement le week-end, j'apprends la sculpture. La sculpture sur pierre entre autres.
@@ -159,7 +159,7 @@ Pour cela, au moment de la signature de l'œuvre par l'artiste, reprenez votre c
 **Cette référence gravée sur la pierre sera le point de départ de l'histoire, comme un fil d'Ariane à suivre.**
 
 <p style="text-align:center">
- <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/slide-tedx-francoisbranciard-3.png" width = 600 >
+ <img src="__PATH_PREFIX__/assets/blog/2020-04-07/slide-tedx-francoisbranciard-3.png" width = 600 >
 </p>
 
 Dans ce nouveau registre agent autonome, la première chose que l'on va inscrire c'est le créateur de l'œuvre et la description, puis viendra les différents propriétaires de cet œuvre d'art au cours du temps ainsi que le prix.
@@ -224,7 +224,7 @@ Pour matérialiser ce passage de la technique à l'ouvrage dans votre quête.
 Je finirai par une citation de Picasso que j'ai faite mienne dans ma vie:
 
 <p style="text-align:center">
- <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/slide-tedx-francoisbranciard-4.png" width = 600 >
+ <img src="__PATH_PREFIX__/assets/blog/2020-04-07/slide-tedx-francoisbranciard-4.png" width = 600 >
 </p>
 
 >
@@ -240,9 +240,9 @@ Merci.
 <p style="text-align:center">
 Sculpture F.Branciard. "La dame à la Capuche".2020.
  <br />
-  <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-1.png" width = 600 >
+  <img src="__PATH_PREFIX__/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-1.png" width = 600 >
  <br />
-  <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-2.png" width = 600 >
+  <img src="__PATH_PREFIX__/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-2.png" width = 600 >
    <br />
   Granite rouge des crus du Beaujolais.
 </p>

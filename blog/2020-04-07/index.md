@@ -3,7 +3,7 @@ date: "2020-04-07"
 title: "Blockchain: a new playground for artwork"
 category: "Art"
 tags: ['Art','Artwork','Blokchain','TEDX','Sculpture']
-banner: "/assets/blog/2020-04-07/banner.png"
+banner: "__PATH_PREFIX__/assets/blog/2020-04-07/banner.png"
 ---
 
 ### Talk at TEDxUSMB merging decentralized technology, art creation and new value exchange models
@@ -36,7 +36,7 @@ It is considered as one of the first artwork of humanity.
   <br />
 Dame de brassempouy Photo musee archeologie national©RMN-GP. Jean-Gilles Berizzi
   <br>
- <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/slide-tedx-francoisbranciard-1.png" width = 600 >
+ <img src="__PATH_PREFIX__/assets/blog/2020-04-07/slide-tedx-francoisbranciard-1.png" width = 600 >
 </p>
 
 If you are as curious as I am, you certainly wonder who creates it, why and for who?
@@ -70,7 +70,7 @@ I would like to explore a solution with you. This solution combines two of my da
 <p style="text-align:center">
   <br />
 Sculpture en cours<br>
- <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/slide-tedx-francoisbranciard-2.png" width = 600 >
+ <img src="__PATH_PREFIX__/assets/blog/2020-04-07/slide-tedx-francoisbranciard-2.png" width = 600 >
 </p>
 
 First, on weekends, I learn sculpture. Stone sculpture.
@@ -160,7 +160,7 @@ To do that, when signing artwork, the artist creator takes sculpt scissor and en
 **This engraved reference on the stone will be the starting point of the story, like a breadcrumb trail to follow.**
 
 <p style="text-align:center">
- <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/slide-tedx-francoisbranciard-3.png" width = 600 >
+ <img src="__PATH_PREFIX__/assets/blog/2020-04-07/slide-tedx-francoisbranciard-3.png" width = 600 >
 </p>
 
 In this new autonomous agent register, the first record will be the information of the artist creator and the artwork description. Then all next owners will be recorded with the current price value of the artwork.
@@ -240,9 +240,9 @@ Thank you.
 <p style="text-align:center">
 Sculpture F.Branciard. "La dame à la Capuche".2020.
  <br />
-  <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-1.png" width = 600 >
+  <img src="__PATH_PREFIX__/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-1.png" width = 600 >
  <br />
-  <img src="https://gateway.ipfs.io/ipns/francoisbranciard.com/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-2.png" width = 600 >
+  <img src="__PATH_PREFIX__/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-2.png" width = 600 >
    <br />
   Granite rock from Beaujolais crus.
 </p>

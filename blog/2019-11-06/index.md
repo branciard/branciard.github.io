@@ -3,14 +3,14 @@ date: "2019-11-06"
 title: "How to create and manage a new DAppNode Package"
 category: "Coding"
 tags: ['Ethereum','Dappnode','Decentralisation','Polkadot','Packaging']
-banner: "/assets/blog/2019-11-06/banner.png"
+banner: "__PATH_PREFIX__/assets/blog/2019-11-06/banner.png"
 ---
                     
 <p style="text-align:center">
   <br />
   Visual Credit : Sydney Lai
   <br>
- <img src="https://gateway.ipfs.io/ipns/QmZWq1Z4ZKsVG2jZWshrp76GxXHheDzYuH9eNSreQrcuRK/assets/blog/2019-11-06/visual-sydney-lai.png" width = 600 >
+ <img src="__PATH_PREFIX__/assets/blog/2019-11-06/visual-sydney-lai.png" width = 600 >
 
   <br /><span style="font-weight: bold;text-align:center;">An example with Polkadot Node Package</span>
 </p>
@@ -104,7 +104,7 @@ When all is ok, it loads the package metadata to IPFS and give you a direct link
 Configure the EXTRA_OPTS parameter and after clicking on Install, you node will start automatically.
 
 <p align="center">
- <img src="https://gateway.ipfs.io/ipns/QmZWq1Z4ZKsVG2jZWshrp76GxXHheDzYuH9eNSreQrcuRK/assets/blog/2019-11-06/installPkgWithIPFSLink.png" width = 600 >
+ <img src="__PATH_PREFIX__/assets/blog/2019-11-06/installPkgWithIPFSLink.png" width = 600 >
  <br />
 Install Package with IPFS link
 </p>

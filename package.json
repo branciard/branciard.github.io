@@ -5,17 +5,25 @@
   "author": "Francois Branciard",
   "keywords": [
     "gatsby, typescript",
-    "blog", "IPFS", "IPNS", "ENS"
+    "blog",
+    "IPFS",
+    "IPNS",
+    "ENS"
   ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop",
-    "deploy": "cp -f gatsby-config.js gatsby-config.ori && sed -i '/.*gatsby-plugin-ipfs.*/d' gatsby-config.js && gatsby build --prefix-paths && gh-pages -d public && mv gatsby-config.ori gatsby-config.js",
-    "publish": "yarn run publish-ipns && yarn run publish-ipfs",
+    "pre-build-no-ipfs": "cp -f gatsby-config.js gatsby-config.ori && sed -i '/.*gatsby-plugin-ipfs.*/d' gatsby-config.js",
+    "post-build-no-ipfs": "mv gatsby-config.ori gatsby-config.js",
+    "publish": "yarn run publish-github && yarn run publish-ipns && yarn run publish-ipfs",
+    "post-publish": "node ./restorePathPrefix",
+    "pre-publish-github": "node ./replacePathPrefix",
+    "publish-github": "yarn run pre-publish-github && yarn run pre-build-no-ipfs && gatsby build --prefix-paths && gh-pages -d public && yarn run post-build-no-ipfs && yarn run post-publish",
+    "pre-publish-ipfs": "PATH_PREFIX=/ipns/francoisbranciard.com node ./replacePathPrefix",
     "publish-ipfs": "IPFS_DEPLOY=true gatsby build --prefix-paths && node ./ipfsDwebUploader public",
-    "publish-ipns": "cp -f gatsby-config.js gatsby-config.ori && sed -i '/.*gatsby-plugin-ipfs.*/d' gatsby-config.js && IPNS_DEPLOY=true gatsby build --prefix-paths && IPNS_DEPLOY=true node ./ipfsDwebUploader public && mv gatsby-config.ori gatsby-config.js",
+    "publish-ipns": "yarn run pre-build-no-ipfs && IPNS_DEPLOY=true gatsby build --prefix-paths && IPNS_DEPLOY=true node ./ipfsDwebUploader public && yarn run post-build-no-ipfs",
     "lint": "tslint --project .",
     "lint:fix": "tslint --fix --project .",
     "fix": "prettier --write 'src/**/*.{ts,tsx,scss,md}' && tslint --fix 'src/**/*.{ts,tsx}' -p tsconfig.json && stylelint --fix 'src/**/*.scss' "
@@ -47,6 +55,7 @@
     "gatsby-source-filesystem": "^2.0.4",
     "gatsby-transformer-remark": "^2.1.7",
     "gh-pages": "^2.0.1",
+    "globby": "^11.0.0",
     "husky": "^1.1.2",
     "ipfs": "^0.42.0",
     "lint-staged": "^7.3.0",
@@ -58,6 +67,7 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-helmet": "^5.2.0",
+    "react-image-fallback": "^8.0.0",
     "react-typography": "^0.16.13",
     "source-map-support": "latest",
     "styled-components": "^4.0.0",
@@ -73,6 +83,7 @@
     "tslint-config-prettier": "^1.15.0",
     "tslint-plugin-prettier": "^2.0.0",
     "typescript": "^3.1.3",
-    "typography": "^0.16.17"
+    "typography": "^0.16.17",
+    "replace-in-file": "^5.0.2"
   }
 }
