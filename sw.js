@@ -1,4 +1,4 @@
-if(typeof __GATSBY_IPFS_PATH_PREFIX__ === 'undefined'){__GATSBY_IPFS_PATH_PREFIX__=''}/**
+/**
  * Welcome to your Workbox-powered service worker!
  *
  * You'll need to register this file in your web app and you should
@@ -26,32 +26,24 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-dd09f54b579f6309d8de.js"
+    "url": "webpack-runtime-1244a406e77610f9ed9b.js"
   },
   {
     "url": "framework-381539f6286ce6c8ee65.js"
   },
   {
-    "url": "app-a18581886c1544bf3b21.js"
+    "url": "app-cb2924a20f5060f061d6.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-af9e0f2c9acfb4fb259c.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "6dd81a4558d2c9db3403bb84dd6bf69f"
-  },
-  {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "c355c8040c47a63bfb3360e4b7cb6553"
-  },
-  {
-    "url": "page-data/app-data.json",
-    "revision": "9d9605cb3fe4b4838e1082520a89b719"
+    "revision": "e1c75f9d78f4905ddf761e61502c12ba"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "35b8741e2656354b81a6b14d08247ab6"
+    "revision": "9f153e9f5b5edbabfbf10c599c79e8f0"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -70,12 +62,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/__GATSBY_IPFS_PATH_PREFIX__`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/__GATSBY_IPFS_PATH_PREFIX__/app-a18581886c1544bf3b21.js`))) {
+  if (!resources || !(await caches.match(`/app-cb2924a20f5060f061d6.js`))) {
     return await fetch(event.request)
   }
 
@@ -88,7 +80,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/__GATSBY_IPFS_PATH_PREFIX__/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 

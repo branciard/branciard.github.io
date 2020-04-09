@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./categories/art</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./categories/coding</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/art</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/artwork</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/blokchain</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/dappnode</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/decentralisation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/ethereum</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/packaging</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/polkadot</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/sculpture</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./tags/tedx</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./blog/blockchain-un-nouveau-terrain-de-jeu-pour-les-oeuvres</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./blog/blockchain-a-new-playground-for-artwork</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./blog/how-to-create-and-manage-a-new-d-app-node-package</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://francoisbranciard.com__GATSBY_IPFS_PATH_PREFIX__./</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/categories/art</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/categories/coding</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/tags/art</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/tags/artwork</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/tags/blokchain</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/tags/dappnode</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/tags/decentralisation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/tags/ethereum</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/tags/packaging</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/tags/polkadot</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/tags/sculpture</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/tags/tedx</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/blog/blockchain-un-nouveau-terrain-de-jeu-pour-les-oeuvres</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/blog/blockchain-a-new-playground-for-artwork</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/blog/how-to-create-and-manage-a-new-d-app-node-package</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://francoisbranciard.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
