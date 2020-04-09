@@ -3,7 +3,7 @@ date: "2020-04-07"
 title: "Blockchain: a new playground for artwork"
 category: "Art"
 tags: ['Art','Artwork','Blokchain','TEDX','Sculpture']
-banner: "./assets/blog/2020-04-07/banner.png"
+banner: "/assets/blog/2020-04-07/banner.png"
 ---
 
 ### Talk at TEDxUSMB merging decentralized technology, art creation and new value exchange models
