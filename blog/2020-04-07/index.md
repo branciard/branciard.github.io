@@ -244,6 +244,8 @@ Sculpture F.Branciard. "La dame à la Capuche Beaujolaise".2020.
   <img src="__PATH_PREFIX__/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-2.png" width = 600 >
   <br />
   Granite rock from Beaujolais crus.
+  <br />
+  Thanks to Aurélie Moreau and his [Atelier](https://www.amoreau-sculpteur.com/) for help and learning on this sculpture.
 </p>
 
 ---

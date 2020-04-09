@@ -244,6 +244,8 @@ Sculpture F.Branciard. "La dame à la Capuche Beaujolaise".2020.
   <img src="__PATH_PREFIX__/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-2.png" width = 600 >
  <br />
   Granite rouge des crus du Beaujolais.
+  <br />
+  Merci à Aurélie Moreau et son [Atelier](https://www.amoreau-sculpteur.com/)  pour l'aide et l'apprentissage sur cette sculpture.
 </p>
 
 ---

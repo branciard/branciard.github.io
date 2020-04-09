@@ -14,7 +14,7 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "start": "gatsby develop",
+    "start": "yarn run pre-build-no-ipfs && gatsby develop",
     "pre-build-no-ipfs": "cp -f gatsby-config.js gatsby-config.ori && sed -i '/.*gatsby-plugin-ipfs.*/d' gatsby-config.js",
     "post-build-no-ipfs": "mv gatsby-config.ori gatsby-config.js",
     "publish": "yarn run publish-github && yarn run publish-ipns && yarn run publish-ipfs",
