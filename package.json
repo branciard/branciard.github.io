@@ -12,7 +12,7 @@
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "cp -f gatsby-config.js gatsby-config.ori && sed -i '/.*gatsby-plugin-ipfs.*/d' gatsby-config.js && gatsby build --prefix-paths && gh-pages -d public && mv gatsby-config.ori gatsby-config.js",
     "publish": "yarn run publish-ipns && yarn run publish-ipfs",
     "publish-ipfs": "IPFS_DEPLOY=true gatsby build --prefix-paths && node ./ipfsDwebUploader public",
     "publish-ipns": "cp -f gatsby-config.js gatsby-config.ori && sed -i '/.*gatsby-plugin-ipfs.*/d' gatsby-config.js && IPNS_DEPLOY=true gatsby build --prefix-paths && IPNS_DEPLOY=true node ./ipfsDwebUploader public && mv gatsby-config.ori gatsby-config.js",
