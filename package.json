@@ -21,9 +21,9 @@
     "post-publish": "node ./restorePathPrefix",
     "pre-publish-github": "node ./replacePathPrefix",
     "publish-github": "yarn run pre-publish-github && yarn run pre-build-no-ipfs && gatsby build --prefix-paths && gh-pages -d public && yarn run post-build-no-ipfs && yarn run post-publish",
-    "pre-publish-ipfs": "PATH_PREFIX=/ipns/francoisbranciard.com node ./replacePathPrefix",
-    "publish-ipfs": "IPFS_DEPLOY=true gatsby build --prefix-paths && node ./ipfsDwebUploader public",
-    "publish-ipns": "yarn run pre-build-no-ipfs && IPNS_DEPLOY=true gatsby build --prefix-paths && IPNS_DEPLOY=true node ./ipfsDwebUploader public && yarn run post-build-no-ipfs",
+    "pre-publish-ipfs": "PATH_PREFIX=https://gateway.ipfs.io/ipns/francoisbranciard.com node ./replacePathPrefix",
+    "publish-ipfs": "yarn run pre-publish-ipfs && IPFS_DEPLOY=true gatsby build --prefix-paths && node ./ipfsDwebUploader public && yarn run post-publish",
+    "publish-ipns": "yarn run pre-publish-ipfs && yarn run pre-build-no-ipfs && IPNS_DEPLOY=true gatsby build --prefix-paths && IPNS_DEPLOY=true node ./ipfsDwebUploader public && yarn run post-build-no-ipfs && yarn run post-publish",
     "lint": "tslint --project .",
     "lint:fix": "tslint --fix --project .",
     "fix": "prettier --write 'src/**/*.{ts,tsx,scss,md}' && tslint --fix 'src/**/*.{ts,tsx}' -p tsconfig.json && stylelint --fix 'src/**/*.scss' "

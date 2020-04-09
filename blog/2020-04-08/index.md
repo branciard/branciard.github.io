@@ -32,9 +32,9 @@ Elle est considérée comme l'une des premières œuvre d'art de l'humanité.
 
 <p style="text-align:center">
   <br />
-Dame de brassempouy Photo musee archeologie national©RMN-GP. Jean-Gilles Berizzi
-  <br>
- <img src="__PATH_PREFIX__/assets/blog/2020-04-07/slide-tedx-francoisbranciard-1.png" width = 600 >
+Dame de brassempouy Photo musee archeologie national©RMN-GP. Jean-Gilles Berizzi.
+  <br />
+ <img src="__PATH_PREFIX__/assets/blog/2020-04-07/slide-tedx-francoisbranciard-1.png" width = 600 >  
 </p>
 
 Si comme moi vous êtes curieux, vous vous demandez qui a pu créer cela, pour qui, pourquoi ?
@@ -67,8 +67,7 @@ J'aimerais avec vous inventer une solution. Cette solution combine deux de mes a
 
 
 <p style="text-align:center">
-  <br />
-Sculpture en cours<br>
+  <br />Sculpture en cours<br />
  <img src="__PATH_PREFIX__/assets/blog/2020-04-07/slide-tedx-francoisbranciard-2.png" width = 600 >
 </p>
 
@@ -238,12 +237,12 @@ Merci.
 ---
 
 <p style="text-align:center">
-Sculpture F.Branciard. "La dame à la Capuche".2020.
+Sculpture F.Branciard. "La dame à la Capuche Beaujolaise".2020.
  <br />
   <img src="__PATH_PREFIX__/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-1.png" width = 600 >
  <br />
   <img src="__PATH_PREFIX__/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-2.png" width = 600 >
-   <br />
+ <br />
   Granite rouge des crus du Beaujolais.
 </p>
 

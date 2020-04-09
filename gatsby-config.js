@@ -7,7 +7,6 @@ require('ts-node').register({
 });
 
 const config = require('./config/SiteConfig').default;
-console.log(process.env.IPFS_DEPLOY)
 
 const pathPrefix = process.env.IPNS_DEPLOY === 'true' ? config.ipnsPathPrefix :
                     (

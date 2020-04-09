@@ -35,7 +35,7 @@ It is considered as one of the first artwork of humanity.
 <p style="text-align:center">
   <br />
 Dame de brassempouy Photo musee archeologie national©RMN-GP. Jean-Gilles Berizzi
-  <br>
+  <br />
  <img src="__PATH_PREFIX__/assets/blog/2020-04-07/slide-tedx-francoisbranciard-1.png" width = 600 >
 </p>
 
@@ -68,9 +68,8 @@ For what we create, what will remain in 5000, 10000 years?
 I would like to explore a solution with you. This solution combines two of my daily activities.
 
 <p style="text-align:center">
-  <br />
-Sculpture en cours<br>
- <img src="__PATH_PREFIX__/assets/blog/2020-04-07/slide-tedx-francoisbranciard-2.png" width = 600 >
+  <br /> Sculpture en cours<br />
+  <img src="__PATH_PREFIX__/assets/blog/2020-04-07/slide-tedx-francoisbranciard-2.png" width = 600 >
 </p>
 
 First, on weekends, I learn sculpture. Stone sculpture.
@@ -238,12 +237,12 @@ Thank you.
 ---
 
 <p style="text-align:center">
-Sculpture F.Branciard. "La dame à la Capuche".2020.
- <br />
+Sculpture F.Branciard. "La dame à la Capuche Beaujolaise".2020.
+  <br />
   <img src="__PATH_PREFIX__/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-1.png" width = 600 >
- <br />
+  <br />
   <img src="__PATH_PREFIX__/assets/blog/2020-04-07/FBranciardDameALaCapucheScupture2020-vineyard-2.png" width = 600 >
-   <br />
+  <br />
   Granite rock from Beaujolais crus.
 </p>
 

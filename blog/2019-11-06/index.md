@@ -9,7 +9,7 @@ banner: "__PATH_PREFIX__/assets/blog/2019-11-06/banner.png"
 <p style="text-align:center">
   <br />
   Visual Credit : Sydney Lai
-  <br>
+  <br />
  <img src="__PATH_PREFIX__/assets/blog/2019-11-06/visual-sydney-lai.png" width = 600 >
 
   <br /><span style="font-weight: bold;text-align:center;">An example with Polkadot Node Package</span>
