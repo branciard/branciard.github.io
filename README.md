@@ -1,4 +1,4 @@
-## Francois Branciard Blog Website : https://francoisbranicard.com
+## Francois Branciard Blog Website : https://francoisbranciard.com
 
 ### Based on the Gatsby starter : [Gatsby 2 Power blog starter with Typescript](https://github.com/mhadaily/gatsby-starter-typescript-power-blog)
 
