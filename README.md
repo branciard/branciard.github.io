@@ -1,19 +1,13 @@
-## Francois Branciard based on the Gatsby started bellow 
+## Francois Branciard Blog Website
 
-## Gatsby 2 Power blog starter with Typescript
-More features are coming, stay tuned! 
+### Based on the Gatsby following starter
 
-## Success Stories:
-- I am using this template for my website https://www.majidhajian.com
+#### Gatsby 2 Power blog starter with Typescript
 
-### Description
+#### Thank you to [Majid Hajian](https://github.com/mhadaily) for this amazing Gatsby started.
+
+#### Description
 This is a standard starter with Typescript, TSLint, StyleLint, Prettier, Lint-Staged(Husky), Sass, StyleComponent, PWA
-
-#### Desktop
-<img src="https://raw.githubusercontent.com/mhadaily/gatsby-starter-typescript-power-blog/master/desktop.png">
-
-#### Mobile
-<img src="https://raw.githubusercontent.com/mhadaily/gatsby-starter-typescript-power-blog/master/mobile.png" width="300px">
 
 ### new project
 ```
