@@ -7,8 +7,15 @@ require('ts-node').register({
 });
 
 const config = require('./config/SiteConfig').default;
+console.log(process.env.IPFS_DEPLOY)
 
-const pathPrefix = process.env.IPNS_DEPLOY === 'true' ? config.ipnsPathPrefix : ( config.pathPrefix === '/' ? '' : config.pathPrefix) ;
+const pathPrefix = process.env.IPNS_DEPLOY === 'true' ? config.ipnsPathPrefix :
+                    (
+                    process.env.IPFS_DEPLOY === 'true' ? config.ipfsPathPrefix :
+                      (
+                        config.pathPrefix === '/' ? '' : config.pathPrefix
+                      )
+                    );
 
 module.exports = {
   pathPrefix: pathPrefix,

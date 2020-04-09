@@ -14,7 +14,7 @@
     "start": "gatsby develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "publish": "yarn run publish-ipns && yarn run publish-ipfs",
-    "publish-ipfs": "IPNS_DEPLOY=false gatsby build --prefix-paths && node ./ipfsDwebUploader public",
+    "publish-ipfs": "IPFS_DEPLOY=true gatsby build --prefix-paths && node ./ipfsDwebUploader public",
     "publish-ipns": "cp -f gatsby-config.js gatsby-config.ori && sed -i '/.*gatsby-plugin-ipfs.*/d' gatsby-config.js && IPNS_DEPLOY=true gatsby build --prefix-paths && IPNS_DEPLOY=true node ./ipfsDwebUploader public && mv gatsby-config.ori gatsby-config.js",
     "lint": "tslint --project .",
     "lint:fix": "tslint --fix --project .",
