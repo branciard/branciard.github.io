@@ -89,12 +89,17 @@ export class Layout extends React.PureComponent<{}> {
               <Footer>
                 &copy; {split(data.site.buildTime, '.')[2]} Decentralized website using Gatsby starter, ENS, IPFS, IPNS, DNSLink
                 <br />
-                <a href="http://francoisbranciard.eth">ENS http://francoisbranciard.eth | </a>
-                <a href="https://gateway.ipfs.io/ipns/francoisbranciard.com">
+                <a target="_blank" href="http://francoisbranciard.eth">
+                  ENS http://francoisbranciard.eth |{' '}
+                </a>
+                <a target="_blank" href="https://gateway.ipfs.io/ipns/francoisbranciard.com">
                   IPNS https://gateway.ipfs.io/ipns/francoisbranciard.com
                 </a>{' '}
                 <br />
-                <a href="https://github.com/branciard/branciard.github.io">GitHub Repository</a> <br />
+                <a target="_blank" href="https://github.com/branciard/branciard.github.io">
+                  GitHub Repository
+                </a>{' '}
+                <br />
                 <span>Last build: {data.site.buildTime}</span>
               </Footer>
             </React.Fragment>
