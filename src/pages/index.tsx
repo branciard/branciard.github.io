@@ -134,9 +134,9 @@ export default class IndexPage extends React.Component<PageProps> {
               <HomepageContent>
                 <h2>About Me</h2>
                 <BioFonSize>
-                  Software engineer, I have a strong backend experience on complex systems working for around 10 years at Orange Information
-                  Systems for several business critical projects. I endorsed several roles, developer, technical leader, and then in charge
-                  of a Build Center department.
+                  Ex-Software engineer, I have a strong backend experience on complex systems working for around 10 years at Orange
+                  Information Systems for several business critical projects. I endorsed several roles, developer, technical leader, and
+                  then in charge of a Build Center department.
                   <br />
                   This experience brings me a lot, working with many teams, production applications on business critical projects with high
                   availability constraints, performance and security.
