@@ -134,6 +134,21 @@ export default class IndexPage extends React.Component<PageProps> {
               <HomepageContent>
                 <h2>About Me</h2>
                 <BioFonSize>
+                  Upgrade 2021 :
+                  <br />
+                  Avec 10 ans de développements dans l’entropie du Système d'information Orange France a naviguer dans les méandres des
+                  “conduites du changement” initiés par les plans Top et NExt, j’ai beaucoup appris. Après cet apprentissage, il m'a semblé
+                  plus utile pour une cohérence et pertinence de l’action au quotidien de mettre un pas de côté et de me former aux
+                  technologies blockchain: construire le nouveau, au lieu de combattre l'ancien. Ex ingénieur dédaléen et startupper
+                  repenti, je m'intéresse maintenant aux outils blockchains et leurs écosystèmes ( Ethereum, Polkadot, DappNode etc ...)
+                  comme outil et non finalité. Outils techniques au service d'expérimentation de nouvelles organisations, de nouvelles
+                  chaines de valeurs, de plus de décentralisation. Outils techniques, à la fois remède et poison selon l’usage, aka
+                  Pharmakon. La finalité restant à bien définir dans des champs multidisciplinaires : sociétés, sociologies, économiques,
+                  philosophiques, humanistes, Néguentropie ?... Voici les choses qui m'intéressent et mes intérêts du moment, pour le
+                  moment.
+                  <br />
+                  Archive 2020 :
+                  <br />
                   Ex-Software engineer, I have a strong backend experience on complex systems working for around 10 years at Orange
                   Information Systems for several business critical projects. I endorsed several roles, developer, technical leader, and
                   then in charge of a Build Center department.
