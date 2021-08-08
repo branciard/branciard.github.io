@@ -177,7 +177,6 @@ export default class IndexPage extends React.Component<PageProps> {
                   </a>
                 </BioFonSize>
                 <br />
-                <h2>Newsletter</h2>
                 <h2>Latest Blog</h2>
                 {edges.map(post => (
                   <Article
