@@ -178,15 +178,6 @@ export default class IndexPage extends React.Component<PageProps> {
                 </BioFonSize>
                 <br />
                 <h2>Newsletter</h2>
-                <a
-                  href="https://newsletter.unlock-protocol.com/?title=Francois%20Branciard%20Newsletter&description=Subscribe%20to%20my%20newsletter%20to%20be%20notify%20when%20I%20publish%20new%20blog%20posts%20or%20updates.&locks=0x92acE3f7f96EB49cB3e25A9468C843BD12F0568E"
-                  target="_blank"
-                >
-                  Subscribe{' '}
-                </a>
-                for 1 DAI/year using Unlock Protocol.
-                <br />
-                <br />
                 <h2>Latest Blog</h2>
                 {edges.map(post => (
                   <Article
